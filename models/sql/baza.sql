@@ -87,4 +87,4 @@ create table igra_asocijacija(
     igra_id int not null,
     asocijacija_id int not null,
     primary key(igra_id, asocijacija_id)
-);
+);  
