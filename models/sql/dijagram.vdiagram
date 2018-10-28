@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<properties>
+	<Controls>
+		<Table1>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="9"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="5aa2ff"/>
+				<name value="Table1"/>
+				<position value="44;320"/>
+				<size value="223;140"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table1>
+		<Table2>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="8"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="5aa2ff"/>
+				<name value="Table2"/>
+				<position value="44;482"/>
+				<size value="223;86"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table2>
+		<Table3>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="7"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="5aa2ff"/>
+				<name value="Table3"/>
+				<position value="387;504"/>
+				<size value="189;122"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table3>
+		<Table4>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="6"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table4"/>
+				<position value="957;468"/>
+				<size value="229;194"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table4>
+		<Table5>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="5"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table5"/>
+				<position value="937;28"/>
+				<size value="249;212"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table5>
+		<Table6>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="4"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table6"/>
+				<position value="338;46"/>
+				<size value="254;86"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table6>
+		<Table7>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="2"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table7"/>
+				<position value="624;316"/>
+				<size value="213;86"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table7>
+		<Table8>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="1"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table8"/>
+				<position value="624;193"/>
+				<size value="213;86"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table8>
+		<Table9>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="3"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table9"/>
+				<position value="957;281"/>
+				<size value="229;140"/>
+				<sort_fields value="1"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table9>
+		<asocijacije>
+			<Properties>
+				<^lock value="0"/>
+				<back_color value="FFFFFF"/>
+				<gamma value="0"/>
+				<name value="asocijacije"/>
+				<size value="2048;2048"/>
+				<style value="4"/>
+				<style_links value="0"/>
+				<units value="5"/>
+			</Properties>
+			<Type value="Diagram"/>
+		</asocijacije>
+	</Controls>
+	<GUI>
+		<FullToolbarLeft value="1"/>
+		<FullToolbarRight value="1"/>
+		<PageEditor value="-1"/>
+		<PageEditorH value="0"/>
+		<PageToolbarLeft value="0"/>
+		<PageToolbarRB value="0"/>
+		<PageToolbarRight value="0"/>
+		<ScrollX value="0"/>
+		<ScrollY value="0"/>
+		<Selection value="YXNvY2lqYWNpamU="/>
+		<ShowAll value="1"/>
+		<ShowChanges value="1"/>
+		<ShowGL value="1"/>
+		<ShowGrid value="1"/>
+		<UseGrid value="0"/>
+	</GUI>
+	<Model>
+		<public>
+			<Links>
+				<o0>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="asocijacija_pojam"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="asocijacija_id"/>
+						<ID value="84512"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_asocijacija_asocijacija_pojam"/>
+						<On_Delete value="Cascade"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="asocijacija"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84512"/>
+					<name value="fk_asocijacija_asocijacija_pojam"/>
+				</o0>
+				<o1>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="asocijacija"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="resenje_id"/>
+						<ID value="84500"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_resenje_asocijacija"/>
+						<On_Delete value="Restrict"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="pojam"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84500"/>
+					<name value="fk_resenje_asocijacija"/>
+				</o1>
+				<o10>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="resena_asocijacija"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="asocijacija_id"/>
+						<ID value="84616"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_asocijacija_resena_asocijacija"/>
+						<On_Delete value="Cascade"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="asocijacija"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84616"/>
+					<name value="fk_asocijacija_resena_asocijacija"/>
+				</o10>
+				<o11>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="resena_asocijacija"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="korisnik_id"/>
+						<ID value="84621"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_korisnik_resena_asocijacija"/>
+						<On_Delete value="Restrict"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="korisnik"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84621"/>
+					<name value="fk_korisnik_resena_asocijacija"/>
+				</o11>
+				<o12>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="resena_igra"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="igra_id"/>
+						<ID value="84584"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_igra_resena_igra"/>
+						<On_Delete value="Cascade"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="igra"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84584"/>
+					<name value="fk_igra_resena_igra"/>
+				</o12>
+				<o13>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="resena_igra"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="korisnik_id"/>
+						<ID value="84589"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_korisnik_resena_igra"/>
+						<On_Delete value="Restrict"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="korisnik"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84589"/>
+					<name value="fk_korisnik_resena_igra"/>
+				</o13>
+				<o2>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="asocijacija_pojam"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="pojam_id"/>
+						<ID value="84517"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_pojam_asocijacija_pojam"/>
+						<On_Delete value="Cascade"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="pojam"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84517"/>
+					<name value="fk_pojam_asocijacija_pojam"/>
+				</o2>
+				<o3>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="pojam"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="kreator_id"/>
+						<ID value="84476"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_kreator_pojam"/>
+						<On_Delete value="Restrict"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="korisnik"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84476"/>
+					<name value="fk_kreator_pojam"/>
+				</o3>
+				<o4>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="asocijacija"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="kreator_id"/>
+						<ID value="84495"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_kreator_asocijacija"/>
+						<On_Delete value="Restrict"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="korisnik"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84495"/>
+					<name value="fk_kreator_asocijacija"/>
+				</o4>
+				<o5>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="igra"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="kreator_id"/>
+						<ID value="84555"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_kreator_igra"/>
+						<On_Delete value="Restrict"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="korisnik"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84555"/>
+					<name value="fk_kreator_igra"/>
+				</o5>
+				<o6>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="igra_asocijacija"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="igra_id"/>
+						<ID value="84568"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_igra_igra_asocijacija"/>
+						<On_Delete value="Cascade"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="igra"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84568"/>
+					<name value="fk_igra_igra_asocijacija"/>
+				</o6>
+				<o7>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="igra_asocijacija"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="asocijacija_id"/>
+						<ID value="84573"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_asocijacija_igra_asocijacija"/>
+						<On_Delete value="Cascade"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="asocijacija"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84573"/>
+					<name value="fk_asocijacija_igra_asocijacija"/>
+				</o7>
+				<o8>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="kategorija"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="roditelj_id"/>
+						<ID value="84531"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_roditelj_kategorija"/>
+						<On_Delete value="Cascade"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="kategorija"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84531"/>
+					<name value="fk_roditelj_kategorija"/>
+				</o8>
+				<o9>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="igra"/>
+						<Child_Table_Schema value="public"/>
+						<Comment value=""/>
+						<Foreign_Key value="kategorija_id"/>
+						<ID value="84550"/>
+						<Match_Types value="SIMPLE"/>
+						<Name value="fk_kategorija_igra"/>
+						<On_Delete value="Restrict"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="kategorija"/>
+						<Parent_Table_Schema value="public"/>
+						<Primary_Key value="id"/>
+						<Schema value="public"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<id value="84550"/>
+					<name value="fk_kategorija_igra"/>
+				</o9>
+			</Links>
+			<Tables>
+				<o0>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="nextval('asocijacija_id_seq'::regclass)"/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="1"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="resenje_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="resenje_id"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="3"/>
+								<Indexed value="1"/>
+								<Name value="kreator_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="kreator_id"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="4"/>
+								<Indexed value="1"/>
+								<Name value="pojmovi_ids"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="pojmovi_ids"/>
+						</o3>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="resenje_id	Asc	Last"/>
+								<ID value="84505"/>
+								<Name value="idx_resenje_asocijacija"/>
+								<Text value="CREATE INDEX idx_resenje_asocijacija ON public.asocijacija USING btree (resenje_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84505"/>
+							<name value="idx_resenje_asocijacija"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="kreator_id	Asc	Last"/>
+								<ID value="84506"/>
+								<Name value="idx_kreator_asocijacija"/>
+								<Text value="CREATE INDEX idx_kreator_asocijacija ON public.asocijacija USING btree (kreator_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84506"/>
+							<name value="idx_kreator_asocijacija"/>
+						</o1>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="4"/>
+						<Has_OIDs value="0"/>
+						<ID value="84484"/>
+						<Index_Count value="2"/>
+						<Link_Count value="5"/>
+						<Name value="asocijacija"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="id"/>
+						<Primary_Key_Name value="asocijacija_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="1"/>
+					</Properties>
+					<Uniques>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="pojmovi_ids"/>
+								<ID value="84494"/>
+								<Name value="asocijacija_pojmovi_ids_key"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84494"/>
+							<name value="asocijacija_pojmovi_ids_key"/>
+						</o0>
+					</Uniques>
+					<control value="Table1"/>
+					<delete value="0"/>
+					<id value="84484"/>
+					<name value="asocijacija"/>
+				</o0>
+				<o1>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="asocijacija_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="asocijacija_id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="pojam_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="pojam_id"/>
+						</o1>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="pojam_id	Asc	Last"/>
+								<ID value="84522"/>
+								<Name value="idx_pojam_asocijacija_pojam"/>
+								<Text value="CREATE INDEX idx_pojam_asocijacija_pojam ON public.asocijacija_pojam USING btree (pojam_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84522"/>
+							<name value="idx_pojam_asocijacija_pojam"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="2"/>
+						<Has_OIDs value="0"/>
+						<ID value="84507"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="asocijacija_pojam"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="asocijacija_id
+pojam_id"/>
+						<Primary_Key_Name value="asocijacija_pojam_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+					</Properties>
+					<control value="Table2"/>
+					<delete value="0"/>
+					<id value="84507"/>
+					<name value="asocijacija_pojam"/>
+				</o1>
+				<o2>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="nextval('pojam_id_seq'::regclass)"/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="1"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="kreator_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="kreator_id"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="3"/>
+								<Indexed value="1"/>
+								<Name value="sadrzaj"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="sadrzaj"/>
+						</o2>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="kreator_id	Asc	Last"/>
+								<ID value="84481"/>
+								<Name value="idx_kreator_pojam"/>
+								<Text value="CREATE INDEX idx_kreator_pojam ON public.pojam USING btree (kreator_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84481"/>
+							<name value="idx_kreator_pojam"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="3"/>
+						<Has_OIDs value="0"/>
+						<ID value="84465"/>
+						<Index_Count value="1"/>
+						<Link_Count value="3"/>
+						<Name value="pojam"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="id"/>
+						<Primary_Key_Name value="pojam_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="1"/>
+					</Properties>
+					<Uniques>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="sadrzaj"/>
+								<ID value="84475"/>
+								<Name value="pojam_sadrzaj_key"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84475"/>
+							<name value="pojam_sadrzaj_key"/>
+						</o0>
+					</Uniques>
+					<control value="Table3"/>
+					<delete value="0"/>
+					<id value="84465"/>
+					<name value="pojam"/>
+				</o2>
+				<o3>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="nextval('korisnik_id_seq'::regclass)"/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="1"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="email"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="email"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Length value="50"/>
+								<Name value="ime"/>
+								<Nullable value="0"/>
+								<Type value="Character Varying"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="ime"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="4"/>
+								<Indexed value="0"/>
+								<Name value="lozinka_hash"/>
+								<Nullable value="1"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="lozinka_hash"/>
+						</o3>
+						<o4>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="false"/>
+								<Dimensions value="0"/>
+								<Field_Position value="5"/>
+								<Name value="aktivan"/>
+								<Nullable value="0"/>
+								<Type value="Boolean"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="aktivan"/>
+						</o4>
+						<o5>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="6"/>
+								<Indexed value="0"/>
+								<Name value="reset_kod"/>
+								<Nullable value="1"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="reset_kod"/>
+						</o5>
+						<o6>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="7"/>
+								<Indexed value="0"/>
+								<Name value="auth_key"/>
+								<Nullable value="1"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="auth_key"/>
+						</o6>
+						<o7>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="8"/>
+								<Indexed value="0"/>
+								<Name value="vreme_registracije"/>
+								<Nullable value="1"/>
+								<Precision value="-1"/>
+								<Type value="Timestamp With Time Zone"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="vreme_registracije"/>
+						</o7>
+					</Fields>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="8"/>
+						<Has_OIDs value="0"/>
+						<ID value="84451"/>
+						<Index_Count value="0"/>
+						<Link_Count value="5"/>
+						<Name value="korisnik"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="id"/>
+						<Primary_Key_Name value="korisnik_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="1"/>
+					</Properties>
+					<Uniques>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="email"/>
+								<ID value="84462"/>
+								<Name value="korisnik_email_key"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84462"/>
+							<name value="korisnik_email_key"/>
+						</o0>
+					</Uniques>
+					<control value="Table4"/>
+					<delete value="0"/>
+					<id value="84451"/>
+					<name value="korisnik"/>
+				</o3>
+				<o4>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="nextval('igra_id_seq'::regclass)"/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="1"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="kategorija_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="kategorija_id"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Name value="kreator_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="kreator_id"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="4"/>
+								<Indexed value="0"/>
+								<Name value="vreme_kreiranja"/>
+								<Nullable value="0"/>
+								<Precision value="-1"/>
+								<Type value="Timestamp With Time Zone"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="vreme_kreiranja"/>
+						</o3>
+						<o4>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="5"/>
+								<Indexed value="0"/>
+								<Length value="100"/>
+								<Name value="naziv"/>
+								<Nullable value="0"/>
+								<Type value="Character Varying"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="naziv"/>
+						</o4>
+						<o5>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="6"/>
+								<Indexed value="0"/>
+								<Name value="opis"/>
+								<Nullable value="1"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="opis"/>
+						</o5>
+						<o6>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="false"/>
+								<Dimensions value="0"/>
+								<Field_Position value="7"/>
+								<Name value="aktivna"/>
+								<Nullable value="0"/>
+								<Type value="Boolean"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="aktivna"/>
+						</o6>
+						<o7>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="8"/>
+								<Indexed value="0"/>
+								<Name value="meta"/>
+								<Nullable value="0"/>
+								<Type value="JSON"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="meta"/>
+						</o7>
+						<o8>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="0"/>
+								<Dimensions value="0"/>
+								<Field_Position value="9"/>
+								<Indexed value="0"/>
+								<Name value="broj_igranja"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="broj_igranja"/>
+						</o8>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="kategorija_id	Asc	Last
+aktivna	Asc	Last"/>
+								<ID value="84560"/>
+								<Name value="idx_kategorija_igra"/>
+								<Text value="CREATE INDEX idx_kategorija_igra ON public.igra USING btree (kategorija_id, aktivna)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84560"/>
+							<name value="idx_kategorija_igra"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="kreator_id	Asc	Last
+aktivna	Asc	Last"/>
+								<ID value="84561"/>
+								<Name value="idx_kreator_igra"/>
+								<Text value="CREATE INDEX idx_kreator_igra ON public.igra USING btree (kreator_id, aktivna)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84561"/>
+							<name value="idx_kreator_igra"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="broj_igranja	Asc	Last
+aktivna	Asc	Last"/>
+								<ID value="84562"/>
+								<Name value="idx_broj_igranja_igra"/>
+								<Text value="CREATE INDEX idx_broj_igranja_igra ON public.igra USING btree (broj_igranja, aktivna)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84562"/>
+							<name value="idx_broj_igranja_igra"/>
+						</o2>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="9"/>
+						<Has_OIDs value="0"/>
+						<ID value="84539"/>
+						<Index_Count value="3"/>
+						<Link_Count value="4"/>
+						<Name value="igra"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="id"/>
+						<Primary_Key_Name value="igra_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+					</Properties>
+					<control value="Table5"/>
+					<delete value="0"/>
+					<id value="84539"/>
+					<name value="igra"/>
+				</o4>
+				<o5>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="igra_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="igra_id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="asocijacija_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="asocijacija_id"/>
+						</o1>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="asocijacija_id	Asc	Last"/>
+								<ID value="84578"/>
+								<Name value="idx_asocijacija_igra_asocijacija"/>
+								<Text value="CREATE INDEX idx_asocijacija_igra_asocijacija ON public.igra_asocijacija USING btree (asocijacija_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84578"/>
+							<name value="idx_asocijacija_igra_asocijacija"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="2"/>
+						<Has_OIDs value="0"/>
+						<ID value="84563"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="igra_asocijacija"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="igra_id
+asocijacija_id"/>
+						<Primary_Key_Name value="igra_asocijacija_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+					</Properties>
+					<control value="Table6"/>
+					<delete value="0"/>
+					<id value="84563"/>
+					<name value="igra_asocijacija"/>
+				</o5>
+				<o6>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value="nextval('kategorija_id_seq'::regclass)"/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="1"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="1"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value='"pg_catalog"."default"'/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Length value="50"/>
+								<Name value="naziv"/>
+								<Nullable value="0"/>
+								<Type value="Character Varying"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="naziv"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="3"/>
+								<Indexed value="1"/>
+								<Name value="roditelj_id"/>
+								<Nullable value="1"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="roditelj_id"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="4"/>
+								<Indexed value="0"/>
+								<Name value="levo"/>
+								<Nullable value="1"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="levo"/>
+						</o3>
+						<o4>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="5"/>
+								<Indexed value="0"/>
+								<Name value="desno"/>
+								<Nullable value="1"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="desno"/>
+						</o4>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="roditelj_id	Asc	Last"/>
+								<ID value="84536"/>
+								<Name value="idx_roditelj_kategorija"/>
+								<Text value="CREATE INDEX idx_roditelj_kategorija ON public.kategorija USING btree (roditelj_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84536"/>
+							<name value="idx_roditelj_kategorija"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="5"/>
+						<Has_OIDs value="0"/>
+						<ID value="84525"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="kategorija"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="id"/>
+						<Primary_Key_Name value="kategorija_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+					</Properties>
+					<control value="Table9"/>
+					<delete value="0"/>
+					<id value="84525"/>
+					<name value="kategorija"/>
+				</o6>
+				<o7>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="1"/>
+								<Name value="asocijacija_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="asocijacija_id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="korisnik_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="korisnik_id"/>
+						</o1>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="asocijacija_id	Asc	Last"/>
+								<ID value="84626"/>
+								<Name value="idx_korisnik_resena_asocijacija"/>
+								<Text value="CREATE INDEX idx_korisnik_resena_asocijacija ON public.resena_asocijacija USING btree (asocijacija_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84626"/>
+							<name value="idx_korisnik_resena_asocijacija"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="2"/>
+						<Has_OIDs value="0"/>
+						<ID value="84611"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="resena_asocijacija"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="asocijacija_id
+korisnik_id"/>
+						<Primary_Key_Name value="resena_asocijacija_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+					</Properties>
+					<control value="Table7"/>
+					<delete value="0"/>
+					<id value="84611"/>
+					<name value="resena_asocijacija"/>
+				</o7>
+				<o8>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="igra_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="igra_id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Collation value=""/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Dimensions value="0"/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="korisnik_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="korisnik_id"/>
+						</o1>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Clustered value="0"/>
+								<Comment value=""/>
+								<Fields value="korisnik_id	Asc	Last"/>
+								<ID value="84594"/>
+								<Name value="idx_korisnik_resena_igra"/>
+								<Text value="CREATE INDEX idx_korisnik_resena_igra ON public.resena_igra USING btree (korisnik_id)"/>
+								<Type value="btree"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<id value="84594"/>
+							<name value="idx_korisnik_resena_igra"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="2"/>
+						<Has_OIDs value="0"/>
+						<ID value="84579"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="resena_igra"/>
+						<Object_Owner value="postgres"/>
+						<Primary_Key value="igra_id
+korisnik_id"/>
+						<Primary_Key_Name value="resena_igra_pkey"/>
+						<Record_Count value="0"/>
+						<Schema value="public"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+					</Properties>
+					<control value="Table8"/>
+					<delete value="0"/>
+					<id value="84579"/>
+					<name value="resena_igra"/>
+				</o8>
+			</Tables>
+		</public>
+	</Model>
+	<Scene>
+		<HeightPX value="2048"/>
+		<WidthPX value="2048"/>
+	</Scene>
+	<version value="80603"/>
+</properties>
+
