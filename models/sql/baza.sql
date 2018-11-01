@@ -15,7 +15,7 @@ CREATE TABLE korisnik (
 );
 
 -- Imutable
--- filtrirati neprimerene reci?
+-- filtrirati neprimerene reci? -Reseno.
 CREATE TABLE pojam(
     id serial PRIMARY KEY,
     kreator_id INT NOT NULL,
@@ -26,6 +26,40 @@ CREATE TABLE pojam(
         ON DELETE RESTRICT
 );
 CREATE INDEX idx_kreator_pojam ON pojam(kreator_id);
+
+
+
+
+-- Polje bi bilo kao pojam? U svakom slucaju treba da se doradi dalje sledece 3 tabele:
+CREATE TABLE polje(
+    id serial PRIMARY KEY,
+    naziv TEXT NOT NULL
+);
+
+CREATE TABLE sablon_igre(
+    id serial PRIMARY KEY,
+    resenje INT NOT NULL,
+    polje_id INT NOT NULL UNIQUE,  -- 1:1 odnos
+    CONSTRAINT fk_polje_sablon_igre
+        FOREIGN KEY(polje_id)
+        REFERENCES polje(id)
+        ON DELETE RESTRICT,
+    CONSTRAINT fk_polje_sablon_igre_resenje
+        FOREIGN KEY(resenje)
+        REFERENCES polje(id)
+        ON DELETE RESTRICT
+);
+
+-- TODO Dodati trigger koji ce popuniti resenje iz tabele asocijacija
+CREATE TABLE alijas(
+    resenje TEXT NOT NULL,
+    id serial PRIMARY KEY,
+    polje_id INT NOT NULL,
+    CONSTRAINT fk_polje_alijas
+        FOREIGN KEY(polje_id)
+        REFERENCES polje(id)
+        ON DELETE RESTRICT
+);
 
 -- imutable. Svaki update kreira novu asocijaciju.
 CREATE TABLE asocijacija(
@@ -46,6 +80,7 @@ CREATE TABLE asocijacija(
 );
 CREATE INDEX idx_resenje_asocijacija ON asocijacija(resenje_id);
 CREATE INDEX idx_kreator_asocijacija ON asocijacija(kreator_id);
+
 
 CREATE TABLE asocijacija_pojam(
     asocijacija_id INT NOT NULL,
@@ -85,8 +120,9 @@ CREATE TABLE igra(
     naziv VARCHAR(100) NOT NULL,
     opis TEXT,
     aktivna BOOLEAN NOT NULL DEFAULT FALSE,
-   -- meta json not null,
+    meta json NOT NULL,
     broj_igranja INT NOT NULL DEFAULT 0,
+    sablon_igre_id INT, -- Dozvoljeno null sve dok se ne implementiraju pravilno sabloni igre
     CONSTRAINT fk_kategorija_igra
         FOREIGN KEY (kategorija_id)
         REFERENCES kategorija(id) 
@@ -94,7 +130,11 @@ CREATE TABLE igra(
     CONSTRAINT fk_kreator_igra
         FOREIGN KEY (kreator_id)
         REFERENCES korisnik(id) 
-        ON DELETE RESTRICT
+        ON DELETE RESTRICT,
+    CONSTRAINT fk_sablon_igre_igra
+        FOREIGN KEY(sablon_igre_id)
+        REFERENCES sablon_igre(id)
+        ON DELETE SET NULL
 );
 CREATE INDEX idx_kategorija_igra ON igra(kategorija_id, aktivna);
 CREATE INDEX idx_kreator_igra ON igra(kreator_id, aktivna);
@@ -104,7 +144,12 @@ CREATE INDEX idx_broj_igranja_igra ON igra(broj_igranja, aktivna);
 CREATE TABLE igra_asocijacija(
     igra_id INT NOT NULL,
     asocijacija_id INT NOT NULL,
+    alijas_id INT, -- Null dozvoljen sve dok se pravilno ne implementira sablon igre
     PRIMARY KEY(igra_id, asocijacija_id),
+    CONSTRAINT fk_igra_alijas
+        FOREIGN KEY (alijas_id)
+        REFERENCES alijas(id) 
+        ON DELETE SET NULL,
     CONSTRAINT fk_igra_igra_asocijacija
         FOREIGN KEY (igra_id)
         REFERENCES igra(id) 
@@ -146,20 +191,34 @@ CREATE TABLE resena_asocijacija(
 );
 CREATE INDEX idx_korisnik_resena_asocijacija ON resena_asocijacija(asocijacija_id);
 
-CREATE TABLE IF NOT EXISTS neprimenjene_reci(
+CREATE TABLE IF NOT EXISTS neprimerene_reci(
     id serial PRIMARY KEY,
     rec TEXT NOT NULL UNIQUE    
 );
 
--- sledeca dva unosa su vezana za neprimenjene reci.
-CREATE OR REPLACE FUNCTION sve_u_mala_slova() -- azurira zadnji unos u tabeli neprimenjene_reci u lowercase slova.
+-- Sledeca cetiri unosa su vezana za neprimerene reci.
+CREATE OR REPLACE FUNCTION sve_u_mala_slova() -- Azurira zadnji unos u tabeli neprimerne_reci u lowercase slova.
  RETURNS TRIGGER AS $$ 
     BEGIN
-        UPDATE neprimenjene_reci set rec=lower(rec) where id IN(select max(id) FROM neprimenjene_reci); 
+        UPDATE neprimerene_reci set rec=lower(rec) where id IN(select max(id) FROM neprimerene_reci); 
         RETURN NEW;
     END;
   $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER pretvori_u_mala -- dodajemo triger prilikom svakog unosa u tabelu neprimenjene_reci.
-        AFTER INSERT ON neprimenjene_reci
+CREATE TRIGGER pretvori_u_mala -- Dodajemo triger prilikom svakog unosa u tabelu neprimerene_reci.
+        AFTER INSERT ON neprimerene_reci
         EXECUTE PROCEDURE sve_u_mala_slova();
+
+CREATE OR REPLACE FUNCTION proveri_rec()
+RETURNS TRIGGER AS $$
+begin
+    IF exists(select * from neprimerene_reci where neprimerene_reci.rec = lower(NEW.sadrzaj)) then RAISE EXCEPTION 'Data rec je neprimenjena';
+    END IF;
+    RETURN NEW;
+     
+end;
+$$LANGUAGE plpgsql;
+
+CREATE TRIGGER proveri_rec_tr
+    BEFORE INSERT ON pojam
+    FOR EACH ROW EXECUTE PROCEDURE proveri_rec();
